@@ -4,28 +4,35 @@
 To develop a Django application to store and retrieve data from a database using Object Relational Mapping(ORM).
 
 ## Entity Relationship Diagram
-
-Include your ER diagram here
+![employee table](images/djangocreatessheet.png)
 
 ## DESIGN STEPS
 
 ### STEP 1:
-create application 
+* open student.saveetha.in
+* open theia IDE  
+* create application
 
 ### STEP 2:
-create model.py and admin.py
-create myapp
+* create employee list size in model.py and from.model import employee in admin.py
+* create employee status
+* create myapp
+* save and changes
+
 
 ### STEP 3:
-make migrations and migrate
-finally runserver 0:8000
+* make migrations and migrate
+* after git clone
+* they are create minimum of ten employee list and save
+* and then go git push origin main 
+* finally runserver 0:8000
+* and finally get git account
 
-Write your own steps
 
 ## PROGRAM
-
-model.py
 ```python
+model.py
+
 from django.db import models
 from django.contrib import admin
 
@@ -49,9 +56,9 @@ admin.site.register(employee,EmployeeAdmin)
 
 ## OUTPUT
 
-Include the screenshot of your admin page.
-![Screenshot of admin page](./images/employeecreate.png)
-![Screenshot of primary_key_check](./images/employeecreatesameno.png)
+
+![Screenshot of admin page](images/employeecreate.png)
+![Screenshot of primary_key_check](images/employeecreatesameno.png)
 
 ## RESULT
 
